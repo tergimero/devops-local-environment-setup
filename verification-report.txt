@@ -1,0 +1,48 @@
+===== DEVOPS ENVIRONMENT VERIFICATION =====
+Date: Thu 19 Nov 2026 15:58:38 GMT
+
+===== VERSION CHECKS =====
+git version 2.56.1
+1.147.0
+8a14f0cc1b08d531eb83255ea3764ae22aa932b5
+x64
+Docker version 29.9.3, build 5457199
+Docker Compose version v5.7.0
+minikube version: v1.39.0
+commit: 7a9f6a841470a207de8cf4bafcccee0969d8ba10
+Client Version: v1.36.1
+Kustomize Version: v5.8.1
+version.BuildInfo{Version:"v3.19.0", GitCommit:"3d8990f0836691f0229297773f3524598f46bda6", GitTreeState:"clean", GoVersion:"go1.24.7"}
+aws-cli/2.41.2 Python/3.14.10 Darwin/23.6.0 exe/x86_64
+{
+  "azure-cli": "2.93.0",
+  "azure-cli-core": "2.93.0",
+  "azure-cli-telemetry": "1.1.0",
+  "extensions": {}
+}
+v22.23.4
+10.9.10
+jq-1.8.2
+Terraform v1.17.2
+on darwin_amd64
+
+ansible [core 2.20.0]
+  config file = None
+  configured module search path = ['/Users/tergi/.ansible/plugins/modules', '/opt/local/share/ansible/plugins/modules']
+  ansible python module location = /opt/local/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/ansible
+  ansible collection location = /Users/tergi/.ansible/collections:/opt/local/share/ansible/collections
+  executable location = /opt/local/bin/ansible
+  python version = 3.14.10 (main, Oct 28 2026, 12:07:23) [Clang 15.0.0 (clang-1500.3.9.4)] (/opt/local/Library/Frameworks/Python.framework/Versions/3.14/bin/python3.14)
+  jinja version = 3.1.6
+  pyyaml version = 6.0.3 (with libyaml v0.2.5)
+
+===== KUBERNETES CLUSTER =====
+minikube
+type: Control Plane
+host: Running
+kubelet: Running
+apiserver: Running
+kubeconfig: Configured
+
+NAME       STATUS   ROLES           AGE   VERSION
+minikube   Ready    control-plane   56m   v1.37.0
