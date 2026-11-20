@@ -31,3 +31,27 @@ The Homebrew installer returned an Apple Silicon-only error. MacPorts was instal
 
 ## Project Status
 Environment setup in progress.
+## Installation and Configuration Evidence
+
+The following screenshots demonstrate the installation and verification of the DevOps tools on my Intel-based macOS environment.
+
+| Tool | Verification Screenshot |
+|---|---|
+| Git | ![Git verification](screenshots/01-git.png) |
+| Visual Studio Code | ![VS Code verification](screenshots/02-vscode.png) |
+| Docker | ![Docker verification](screenshots/03-docker.png) |
+| AWS CLI | ![AWS CLI verification](screenshots/04-aws-cli.png) |
+| Azure CLI | ![Azure CLI verification](screenshots/05-azure-cli.png) |
+| Kubernetes / Minikube | ![Kubernetes verification](screenshots/06-kubernetes.png) |
+| Terraform | ![Terraform verification](screenshots/07-terraform.png) |
+| Ansible | ![Ansible verification](screenshots/08-ansible.png) |
+
+### Environment Verification
+
+I verified the installed tools using Terminal commands and recorded the results in `verification-report.txt`.
+
+The project also includes `devops-env.sh`, which configures the local DevOps environment variables and command-line paths.
+
+### Challenges and Troubleshooting
+
+During setup, I encountered package installation errors, authentication issues when pushing to GitHub, and Kubernetes connection timeouts. I resolved these issues through alternative installation methods, GitHub token authentication, and Kubernetes configuration checks.
