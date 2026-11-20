@@ -55,3 +55,22 @@ The project also includes `devops-env.sh`, which configures the local DevOps env
 ### Challenges and Troubleshooting
 
 During setup, I encountered package installation errors, authentication issues when pushing to GitHub, and Kubernetes connection timeouts. I resolved these issues through alternative installation methods, GitHub token authentication, and Kubernetes configuration checks.
+## Cloud Account Setup Evidence
+
+The following screenshots demonstrate access to the cloud development platforms:
+
+- [GitHub Account](screenshots/09-github-account.png)
+- [AWS Account](screenshots/10-aws-account.png)
+- [Microsoft Azure Account](screenshots/11-azure-account.png)
+
+## Azure CLI Verification
+
+- [Azure CLI Installation](screenshots/05-azure-cli.png)
+- [Additional Azure CLI Verification](screenshots/12-azure-cli-verification.png)
+
+## Git Commit History
+
+The repository includes meaningful commits documenting the setup process, installation verification, and evidence collection.
+
+- [Git History Screenshot](screenshots/13-git-history.png)
+- [Detailed Commit History](commit-history.txt)

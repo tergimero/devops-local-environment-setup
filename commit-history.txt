@@ -1,3 +1,4 @@
+ee22ece | 2026-11-20 | Add cloud account setup and Git history evidence
 b328cbc | 2026-11-20 | Ignore macOS metadata files
 1b3cb98 | 2026-11-20 | Document DevOps installation screenshots in README
 05cd6d9 | 2026-11-20 | Add DevOps installation verification screenshots
